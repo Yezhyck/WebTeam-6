@@ -203,3 +203,27 @@ div.dropdown-content {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#head {
+    text-align: center;
+    font-size: 25px;
+    color: #f4f4f4;
+}
+
+div#fill {
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+div#example {
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+.float_element {
+    float: right;
+    color: #f4f4f4;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}

@@ -4,9 +4,9 @@ function pushParticipantsPhotos() {
     header = document.getElementById("head");
     fill = document.getElementById("fill");
     header.innerHTML = "<b>Фотографії учасників команди №6</b>";
-    fill.innerHTML = '<img src="n.jpg" alt="Кошова А." style="width: 250px; height: 250px; margin: 5px;"> Кошова Анастасія<br>' +
-        '<img src="y.jpg" alt="Глушко Ю." style="width: 250px; height: 250px; margin: 5px;"> Глушко Юлія<br>' +
-        '<img src="s.jpg" alt="Яцук С." style="width: 250px; height: 250px; margin: 5px;"> Яцук Сергій';
+    fill.innerHTML = '<img src="/labs/lab1/images/n.jpg" alt="Кошова А." style="width: 250px; height: 250px; margin: 5px;"> Кошова Анастасія<br>' +
+        '<img src="/labs/lab1/images/y.jpg" alt="Глушко Ю." style="width: 250px; height: 250px; margin: 5px;"> Глушко Юлія<br>' +
+        '<img src="/labs/lab1/images/s.jpg" alt="Яцук С." style="width: 250px; height: 250px; margin: 5px;"> Яцук Сергій';
 }
 
 function pushTopicPurposePlace() {
