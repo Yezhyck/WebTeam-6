@@ -4,9 +4,9 @@ function pushParticipantsPhotos() {
     header = document.getElementById("head");
     fill = document.getElementById("fill");
     header.innerHTML = "<b>Фотографії учасників команди №6</b>";
-    fill.innerHTML = '<img src="/labs/lab1/images/n.jpg" alt="Кошова А." style="width: 250px; height: 250px; margin: 5px;"> Кошова Анастасія<br>' +
-        '<img src="/labs/lab1/images/y.jpg" alt="Глушко Ю." style="width: 250px; height: 250px; margin: 5px;"> Глушко Юлія<br>' +
-        '<img src="/labs/lab1/images/s.jpg" alt="Яцук С." style="width: 250px; height: 250px; margin: 5px;"> Яцук Сергій';
+    fill.innerHTML = '<br><img src="/labs/lab1/images/n.jpg" alt="Кошова А." style="width: 250px; height: 250px; margin: 5px;"><br>Кошова Анастасія<br><br>' +
+        '<img src="/labs/lab1/images/y.jpg" alt="Глушко Ю." style="width: 250px; height: 250px; margin: 5px;"><br>Глушко Юлія<br><br>' +
+        '<img src="/labs/lab1/images/s.jpg" alt="Яцук С." style="width: 250px; height: 250px; margin: 5px;"><br>Яцук Сергій';
 }
 
 function pushTopicPurposePlace() {
@@ -43,7 +43,7 @@ function pushHTMLTable() {
     header = document.getElementById("head");
     fill = document.getElementById("fill");
     header.innerHTML = "Товари";
-    fill.innerHTML = '<br>\<table border="5"><caption>Товари індустрії одягу</caption><tbody><tr><th>Обкладинка</th><th>Модель</th><th>Ціна</th><th>Лінійка</th><th>Кольори</th><th>Розміри(US)</th></tr><tr><td><img src="https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/de703fcbe76647a595b0acc2015a85ce_9366/H67360_00_plp_standard.jpg"alt="" height="150px" /></td><td>Adidas Niteball</td><td>4799 грн</td><td>Originals</td><td>Червоний, Зелений, Білий</td><td>7, 7.5, 8.5</td></tr><tr><td><img src="https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/3c930598e8784957a410aa76010d8421_9366/EE6999_00_plp_standard.jpg"alt="" height="150px" /></td><td>Adidas OZWEEGO</td><td>4398 грн</td><td>Originals</td><td>Синій, Фіолетовий, Чорний</td><td>5, 6, 7, 7.5, <br>8, 8.5, 9, <br>10, 10.5, 11</td></tr><tr><td><img src="https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/5ae8c3ba13f94a98ae3ead22000382a5_9366/GZ9112_00_plp_standard.jpg"alt="" height="150px" /></td><td>Adidas Forum Low</td><td>3998 грн</td><td>Originals</td><td>Фіолетовий, Блакитний, Жовтий</td><td>5, 5.5, 6, <br>6.5, 7, 7.5, <br>8, 8.5, 9, 9.5, <br>10, 10.5, 11</td></tr></tbody></table><br>' +
+    fill.innerHTML = '<br><table border="5"><caption>Товари індустрії одягу</caption><tbody><tr><th>Обкладинка</th><th>Модель</th><th>Ціна</th><th>Лінійка</th><th>Кольори</th><th>Розміри(US)</th></tr><tr><td><img src="https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/de703fcbe76647a595b0acc2015a85ce_9366/H67360_00_plp_standard.jpg"alt="" height="150px" /></td><td>Adidas Niteball</td><td>4799 грн</td><td>Originals</td><td>Червоний, Зелений, Білий</td><td>7, 7.5, 8.5</td></tr><tr><td><img src="https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/3c930598e8784957a410aa76010d8421_9366/EE6999_00_plp_standard.jpg"alt="" height="150px" /></td><td>Adidas OZWEEGO</td><td>4398 грн</td><td>Originals</td><td>Синій, Фіолетовий, Чорний</td><td>5, 6, 7, 7.5, <br>8, 8.5, 9, <br>10, 10.5, 11</td></tr><tr><td><img src="https://assetmanagerpim-res.cloudinary.com/images/w_380/q_80/5ae8c3ba13f94a98ae3ead22000382a5_9366/GZ9112_00_plp_standard.jpg"alt="" height="150px" /></td><td>Adidas Forum Low</td><td>3998 грн</td><td>Originals</td><td>Фіолетовий, Блакитний, Жовтий</td><td>5, 5.5, 6, <br>6.5, 7, 7.5, <br>8, 8.5, 9, 9.5, <br>10, 10.5, 11</td></tr></tbody></table><br>' +
     "Тег <ТАВLЕ><br>" +
     "Тег <ТR><br>"+
     "Тег <ТD><br>"+
@@ -58,7 +58,7 @@ function pushHTMLTable() {
     "• VALIGN = ТОР вирівнює вміст комірки по її верхній межі<br>"+
     "• VALIGN = Мiddle. Центрує вміст комірки по вертикалі<br>" +
     "• VALIGN = вотт. Вирівнює вміст комірки по її нижній межі<br>";
-    example.innerHTML = '<br><img src="table.png" alt="Рис. 3, HTML-таблиця(ЛР-1)" width="480px" height="530px"><br>"Рис. 3, HTML-таблиця(ЛР-1)';
+    example.innerHTML = '<br><img src="/labs/lab1/images/table.png" alt="Рис. 3, HTML-таблиця(ЛР-1)" width="480px" height="530px"><br>"Рис. 3, HTML-таблиця(ЛР-1)';
 }
 
 function pushGreeting() {
@@ -84,7 +84,7 @@ function pushHTMLForm() {
     example = document.getElementById("example");
     header.innerHTML = "Приклад використання HTML-форми";
     fill.innerHTML = '<br><form><input id="login" type="text" placeholder="Логін"> Ваш логін<br><input id="password" type="password" placeholder="Пароль"> Ваш пароль<br><br><button onclick="pushGreeting()" style="">Відправити форму</button></form>';
-    example.innerHTML = '<br><br><img src="form.png" alt="Рис. 2, HTML-форма(ЛР-1)"><br>Рис. 2, HTML-форма(ЛР-1)';
+    example.innerHTML = '<br><br><img src="/labs/lab1/images/form.png" alt="Рис. 2, HTML-форма(ЛР-1)"><br>Рис. 2, HTML-форма(ЛР-1)';
 }
 
 function invalidExample() {
@@ -100,7 +100,7 @@ function pushHTMLImage() {
     header = document.getElementById("head");
     fill = document.getElementById("fill");
     header.innerHTML = "<b>Зображення HTML-коду</b>";
-    fill.innerHTML = '<img src="code.png" alt="Рис. 1, HTML-код(ЛР-1)" style="width:800px; height:600px;"><br>Рис. 1, HTML-код(ЛР-1)';
+    fill.innerHTML = '<img src="/labs/lab1/images/code.png" alt="Рис. 1, HTML-код(ЛР-1)" style="width:800px; height:600px;"><br>Рис. 1, HTML-код(ЛР-1)';
 }
 
 function pushConclusions() {
