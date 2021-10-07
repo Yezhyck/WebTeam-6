@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style3.css" rel="stylesheet" type="text/css">
+    <script src="info3.js" defer></script>
+    <title>Document</title>
+    <style>
+        #head {
+            text-align: center;
+            font-size: 25px;
+            color: #f4f4f4;
+        }
+
+        div#fill {
+            font-size: 20px;
+            color: #f4f4f4;
+        }
+
+        div#example {
+            font-size: 20px;
+            color: #f4f4f4;
+        }
+
+        .float_element {
+            float: right;
+            color: #f4f4f4;
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div align="center" class="header">
+            <h2 style="color: #f4f4f4;">Лабораторна робота №3</h2>
+            <h3 style="color: #f4f4f4;">БРИГАДА №6 Студенти групи ІА-04<br>Яцук Сергій<br>Кошова Анастасія<br>Глушко
+                Юлія</h3>
+        </div>
+        <div>
+            <button class="photos" onclick="pushParticipantsPhotos()">Фото студентів</button>
+            <form action="/project/simplyfier.html">
+                <button class="photos1">Web-застосунок</button>
+            </form>
+            <!-- <form action="https://github.com/Yezhyck/WebTeam-6.git">
+                <button class="photos2">GitHub</button>
+            </form> -->
+            <a href="https://github.com/Yezhyck/WebTeam-6.git" target="_blank" class="photos2">GitHub</a>
+        </div>
+        <div align="center">
+            <a href="/labs/lab1/lab1.html">Лабораторна <br>робота №1</a>
+            <a href="/labs/lab2/lab2.html">Лабораторна <br>робота №2</a>
+            <a href="/labs/lab3/lab3.html">Лабораторна <br>робота №3</a>
+            <a href="/labs/lab4/lab4.html">Лабораторна <br>робота №4</a>
+            <a href="/labs/lab5/lab5.html">Лабораторна <br>робота №5</a>
+            <a href="/labs/lab6/lab6.html">Лабораторна <br>робота №6</a>
+            <a href="/labs/lab7/lab7.html">Лабораторна <br>робота №7</a>
+            <a href="/labs/lab8/lab8.html">Лабораторна <br>робота №8</a>
+            <a href="/labs/lab9/lab9.html">Лабораторна <br>робота №9</a>
+        </div>
+    </div>
+    <div~Ми class="bottom">
+        <div>
+            <button class="btn_show" onclick="pushTopicPurposePlace()">Тема Мета Місце<br>розташування лаби №3</button>
+            <button class="btn_show" onclick="pushLayoutAppearance()">Зовнішній вигляд макету</button>
+            <button class="btn_show" onclick="pushCodeLayoutAppearance()">HTML-код макету</button>
+            <button class="btn_show" onclick="pushPageLayoutWithATable()">Розмітка сторінки за допомогою таблиці</button>
+            <button class="btn_show" onclick="pushPageLayoutWithABlock()">Розмітка за допомогою плаваючих блоків</button>
+           
+            <button class="btn_show" onclick="pushConclusions()">Висновки</button>
+            <form action="/labs/main/main.html">
+                <button class="btn_show">Головна</button>
+            </form>
+        </div>
+        <div class="output_area">
+            <div id="head" class="head"></div>
+            <div id="fill" class="fill"></div>
+            <div id="example" class="example"></div>
+        </div>
+        <!-- <br><img src="/lab2/hfe.png" alt=""><br>Рис. 13, ідентифікатори "head", "fill" та "example"(ЛР-2).<br><br><img src="/lab2/hfes.png" alt=""><br>Рис. 14, селектор ідентифікатора(ЛР-2).<br><br><img src="/lab2/hfes1.png" alt=""><br>Рис. 15, теги &lt;div&gt; та (ідентифікатори "head", "fill" та "example")(ЛР-2).<br><br><img src="/lab2/dhfes.png" alt=""><br>Рис. 16, селектор1 = тег &lt;div&gt; + ідентифікатор "head"<br>селектор2 = тег &lt;div&gt; + ідентифікатор "fill"<br>селектор3 = тег &lt;div&gt; + ідентифікатор "example"<br>(ЛР-2).<br><br><img src="/lab2/fb.png" alt=""><br>Рис. 17, тег &lt;form&gt; та &lt;button&gt;(ЛР-2).<br><br><img src="/lab2/fb_s.png" alt=""><br>Рис. 18, контекстний селектор = тег &lt;form&gt; + &lt;button&gt;(ЛР-2).<br><br><img src="/lab2/bdda.png" alt=""><br>Рис. 19, теги &lt;body&gt;, &lt;div&gt;, &lt;div&gt; та &lt;a&gt;(ЛР-2).<br><br><img src="/lab2/bddas.png" alt=""><br>Рис. 20, ланйцюжковий селектор з тегів &lt;body&gt;, &lt;div&gt;, &lt;div&gt; та &lt;a&gt(ЛР-2).<br><br><img src="/lab2/arr.png" alt=""><br>Рис. 21, дочірні селектори(ЛР-2).<br> -->
+        <!-- <br><img src="/lab2/p.png" alt=""><br>Рис. 22, клас "dropdown" та сусідній тег &lt;div&gt;(ЛР-2).<br><br><img src="/lab2/ps.png" alt=""><br>Рис. 23, комбінаційний селектор клас "dropdown" + сусідній тег &lt;div&gt;(ЛР-2).<br> -->
+        <!-- Селектори за ідентифікатором.<br>Цей базовий селектор вибирає елементи, грунтуючись на значенні їх id атрибута. Не забувайте, що ідентифікатор повинен бути унікальним, т. Е. Використовуватися тільки для одного елемента в HTML-документі.<br>Синтаксис: # імяІдентіфікатора<br>Приклад: селектор #toc вибере елемент з ідентифікатором toc (який був визначений в атрибуті id = "toc").<br>Селектори по атрибуту.<br>Цей селектор вибирає всі елементи, що мають даний атрибут або атрибут з певним значенням.<br>Синтаксис: [attr] [attr = value] [attr ~ = value] [attr | = value] [attr ^ = value] [attr $ = value] [attr * = value] .<br>Приклад: селектор [autoplay] вибере всі елементи, які мають атрибут autoplay (незалежно від його значення).<br>Ще приклад: a [href $ = ". Jpg"] вибере всі посилання, у яких адреса закінчується на ".jpg".<br>Ще приклад: a [href ^ = "https"] вибере всі посилання, у яких адреса починається на "https".<br>Комбінатор нащадків.<br>Комбінатор ' ' (пропуск) вибирає елементи, які знаходяться всередині зазначеного елемента (незалежно від рівня вкладеності).<br>Синтаксис: A B.<br>Приклад: селектор div span вибере всі елементи &lt;span&gt;, які знаходяться всередині елемента &lt;div&gt;.<br>Дочірні селектори.<br>Комбінатор '>' на відміну від пропуску вибирає тільки ті елементи, які є дочірніми безпосередньо по відношенню до зазначеного елементу.<br>Синтаксис: A>B.<br>Приклад: селектор ul > li вибере тільки дочірні елементи &lt;li&gt;, які знаходяться всередині, на першому рівні вкладеності по відношенню до елементу &lt;ul&gt;.<br>Комбінатор наступного сусіднього елемента.<br>Комбінатор '+' вибирає елемент, який знаходиться безпосередньо після зазначеного елемента, якщо у них загальний батько.<br>Синтаксис: A + B.<br>Приклад: селектор ul + li вибере будь &lt;li&gt; елемент, який знаходиться безпосередньо після елемента &lt;ul&gt;.<br> -->
+        <!-- Після виконання лабораторної роботи №2 студенти нашої команди придбати практичні навички роботи з:<br><br><ol><li>Селекторами;</li><li>Ідентифікаторами;</li><li>Списками;</li><li>Різноманітними властивостями кольору і фону;</li><li>Зовнішними та внутрішними відступами;</li><li>Плаваючими елементами;</li><li>Оформленням текстових елементів.</li></ol> -->
+        <!-- <br>В ході виконання даної лабораторної роботи ми придбали практичні навички верстки сторінок засобами CSS та верстки на основі плаваючих елементів.<br><ol><li>Ми розробили макет власного сайту, застосовуючи плаваючі блоки, позиціонування та маніпуляції з внутрішніми й зовнішніми відступами.</li><li>Було опрацьовано теоретичний матеріал стосовно типів макетів та визначено переваги й недоліки кожного з типів(фіксованого, гумового, еластичного, адаптивного, комбінованого).</li><li>Крім того, кожен учасник нашої команди створив окремо свою веб-сторінку, за поданим макетом, застосовуючи розмітку за допомогою таблиці й за допомогою плаваючих блоків.</li> -->
+    </div>
+</body>
+
+</html>

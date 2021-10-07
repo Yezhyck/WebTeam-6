@@ -1,0 +1,152 @@
+.body_container{
+   margin: 0px; 
+   background-color: rgb(250, 250, 250);  
+}
+.up_yellow_container{
+   background-color: rgb(226, 208, 103); 
+    width: 100%;
+  
+    position: relative; 
+    margin: auto;
+    height: 15vh;
+    float:left;  
+    text-align: right;
+    line-height: 15vh;
+    font-weight:bold
+ }
+ .down_yellow_container{
+   background-color: rgb(226, 208, 103); 
+    width: 100%;
+  
+    position: relative; 
+    margin: auto;
+    height: 15vh;
+    float:left;  
+    text-align:left;
+    line-height: 15vh;
+    font-weight:bold
+ }
+ .white_container{
+   background-color: rgb(245, 244, 241); 
+   width: 30%;
+   min-width: 100px;
+   position: relative; 
+   margin: 1em;
+   height: 30px;
+   float:left;  
+}
+ .left_side_container{
+   background-color: rgb(140, 139, 230);
+   float:left;
+   height: 70vh;
+   width: 30%;
+   position: relative; 
+   left: 0;
+   margin: auto;  
+   text-align: center;
+   line-height: 70vh;
+   font-weight:bold
+  
+}
+.center_container{
+   background-color: rgb(218, 236, 214);
+   margin: 1% 1% 0% 2%;
+   height: 27vh;
+   float:left;
+   position: relative;
+   width: 33%;
+   left: 0;
+   text-align: center;
+   line-height: 27vh;
+   font-weight:bold
+}
+.right_side_container{
+   background-color: rgb(140, 139, 230);
+   margin: 1% 2% 1.5% 2%;
+    height: 42vh;
+    float:right;
+    position: relative;
+    width: 30%;
+    left: 0;
+    text-align: center;
+   line-height: 42vh;
+   font-weight:bold
+}
+ .top_red_container{
+    background-color: rgb(230, 70, 91); 
+    width: 66%;
+  
+    position: relative; 
+    margin: 2% 2% 1% 2%;
+    height: 15vh;
+    float:right;  
+ }
+ .bottom_center_container{
+    background-color: rgb(230, 70, 91);
+    margin: 0% 1% 2% 2%;
+    height: 15vh;
+    float:left;
+    position: relative;
+    width: 33%;
+    left: 0;
+}
+.table_container{
+   width:100%; 
+   border-collapse: collapse;   
+}
+.table_up_yellow_container{
+   background-color: rgb(226, 208, 103); 
+  width: 100%;
+   height: 15vh; 
+   text-align: right;
+   line-height: 15vh;
+   font-weight:bold
+}
+.table_down_yellow_container{
+   background-color: rgb(226, 208, 103); 
+  width: 100%;
+   height: 15vh; 
+   text-align: left;
+   line-height: 15vh;
+   font-weight:bold}
+
+ .table_left_side_container{
+    background-color: rgb(140, 139, 230);
+     height: 70vh;
+     width: 30%; 
+     text-align: center;
+     line-height: 70vh;
+     font-weight:bold}
+
+ .table_center_container{
+     background-color: rgb(218, 236, 214);
+     height: 27vh;
+     width: 33%;
+     border: solid 10px white;
+     text-align: center;
+     line-height: 27vh;
+     font-weight:bold
+ }
+ .table_right_side_container{
+   background-color: rgb(140, 139, 230);
+    width: 66%;
+    height: 10vh;
+    border: solid 10px white;
+    text-align: center;
+     line-height: 10vh;
+     font-weight:bold
+ }
+ 
+ .table_top_red_container{
+   background-color: rgb(230, 70, 91); 
+   width: 66%;
+   height: 15vh;
+   border: solid 10px white;
+}
+ .table_bottom_center_container{
+   background-color: rgb(230, 70, 91);
+   height: 15vh;
+   width: 33%;
+   border: solid 10px white;}
+
+ 
