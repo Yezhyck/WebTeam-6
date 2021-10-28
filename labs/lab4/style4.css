@@ -18,11 +18,8 @@ body > div > div > a {
     border-radius: 13px;
 }
 
-.btn_m, .btn_w, btn_c {
-    display: inline-block;
-}
-
 .btn_m {
+    display: inline-block;
     color: #f4f4f4;
     background-color: rgb(70, 165, 253);
     margin-left: 5px;
@@ -37,6 +34,7 @@ body > div > div > a {
 }
 
 .btn_w {
+    display: inline-block;
     color: #f4f4f4;
     background-color: rgb(253, 70, 70);
     margin-left: 5px;
@@ -51,6 +49,7 @@ body > div > div > a {
 }
 
 .btn_c {
+    display: inline-block;
     color: #f4f4f4;
     background-color: rgb(255, 155, 89);
     margin-left: 5px;
@@ -81,7 +80,7 @@ body > div > div > a {
 
 .btn_show {
     width: 350px;
-    height: 100px;
+    height: 150px;
     display: block;
     color: #f4f4f4;
     background-color: rgba(29, 28, 28, 0.61);
@@ -221,3 +220,4 @@ div.dropdown-content {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+

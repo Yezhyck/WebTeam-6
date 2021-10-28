@@ -1,0 +1,40 @@
+#Calendar {
+    position: absolute;
+    border-collapse: collapse;
+    background: #191970;
+    border: 1px solid #303030;
+    display: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    z-index: 9566599;
+    box-shadow: 0 0 15px rgba(98, 98, 206, 1);
+}
+#Calendar_mns{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    background: #191970;
+}
+#Calendar select,#Calendar option {
+    font-size: 11px;
+    padding: 0 2px;
+}
+.just_style {
+
+    width:  16em;
+    height: 4em;
+    font-size: medium;
+    color: rgb(245, 197, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #151542;
+}
+.just_style_btn {
+
+    width:  4em;
+    height: 3em;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #151542;
+    color: rgb(245, 197, 242);
+}

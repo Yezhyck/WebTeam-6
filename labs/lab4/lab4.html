@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style3.css" rel="stylesheet" type="text/css">
-    <script src="info3.js" defer></script>
+    <link href="style4.css" rel="stylesheet" type="text/css">
+    <script src="info4.js" defer></script>
     <title>Document</title>
     <style>
         #head {
@@ -38,7 +38,7 @@
 <body>
     <div class="top">
         <div align="center" class="header">
-            <h2 style="color: #f4f4f4;">Лабораторна робота №3</h2>
+            <h2 style="color: #f4f4f4;">Лабораторна робота №4</h2>
             <h3 style="color: #f4f4f4;">БРИГАДА №6 Студенти групи ІА-04<br>Яцук Сергій<br>Кошова Анастасія<br>Глушко
                 Юлія</h3>
         </div>
@@ -53,7 +53,7 @@
             <a href="https://github.com/Yezhyck/WebTeam-6.git" target="_blank" class="photos2">GitHub</a>
         </div>
         <div align="center">
-            <a href="/labs/lab1/lab1.html">Лабораторна <br>робота №1</a>
+            <a href= /labs/lab1/lab1.html>Лабораторна <br>робота №1</a>
             <a href="/labs/lab2/lab2.html">Лабораторна <br>робота №2</a>
             <a href="/labs/lab3/lab3.html">Лабораторна <br>робота №3</a>
             <a href="/labs/lab4/lab4.html">Лабораторна <br>робота №4</a>
@@ -66,11 +66,21 @@
     </div>
     <div class="bottom">
         <div>
-            <button class="btn_show" onclick="pushTopicPurposePlace()">Тема Мета Місце<br>розташування лаби №3</button>
-            <button class="btn_show" onclick="pushLayoutAppearance()">Зовнішній вигляд макету</button>
-            <button class="btn_show" onclick="pushCodeLayoutAppearance()">HTML-код макету</button>
-            <button class="btn_show" onclick="pushPageLayoutWithATable()">Розмітка сторінки за допомогою таблиці</button>
-            <button class="btn_show" onclick="pushPageLayoutWithABlock()">Розмітка за допомогою плаваючих блоків</button>
+            <button class="btn_show" onclick="pushTopicPurposePlace()">Постановка задачі лабораторної  № 4</button>
+
+            <div class="dropdown">
+                <button class="btn_show">Способи функціонального застосування <br>Java Script</button>
+                <div class="dropdown-content">
+                    <button class="btn_show_small" onclick="pushURLScheme()">Схема URL</button>
+                    <button class="btn_show_small" onclick="pushEventHandler()">Обробник подій</button>
+                    <button class="btn_show_small" onclick="pushSubstitution()">Підстановка</button>
+                    <button class="btn_show_small" onclick="pushInsert()">Вставка</button>
+                </div>
+            </div>
+
+            <button class="btn_show" onclick="pushArrays()">Масиви</button>
+            <button class="btn_show" onclick="pushExecutionOf6Points()">Виконання 6 пункту</button>
+           
            
             <button class="btn_show" onclick="pushConclusions()">Висновки</button>
             <form action="/labs/main/main.html">
@@ -86,7 +96,6 @@
         <!-- <br><img src="/lab2/p.png" alt=""><br>Рис. 22, клас "dropdown" та сусідній тег &lt;div&gt;(ЛР-2).<br><br><img src="/lab2/ps.png" alt=""><br>Рис. 23, комбінаційний селектор клас "dropdown" + сусідній тег &lt;div&gt;(ЛР-2).<br> -->
         <!-- Селектори за ідентифікатором.<br>Цей базовий селектор вибирає елементи, грунтуючись на значенні їх id атрибута. Не забувайте, що ідентифікатор повинен бути унікальним, т. Е. Використовуватися тільки для одного елемента в HTML-документі.<br>Синтаксис: # імяІдентіфікатора<br>Приклад: селектор #toc вибере елемент з ідентифікатором toc (який був визначений в атрибуті id = "toc").<br>Селектори по атрибуту.<br>Цей селектор вибирає всі елементи, що мають даний атрибут або атрибут з певним значенням.<br>Синтаксис: [attr] [attr = value] [attr ~ = value] [attr | = value] [attr ^ = value] [attr $ = value] [attr * = value] .<br>Приклад: селектор [autoplay] вибере всі елементи, які мають атрибут autoplay (незалежно від його значення).<br>Ще приклад: a [href $ = ". Jpg"] вибере всі посилання, у яких адреса закінчується на ".jpg".<br>Ще приклад: a [href ^ = "https"] вибере всі посилання, у яких адреса починається на "https".<br>Комбінатор нащадків.<br>Комбінатор ' ' (пропуск) вибирає елементи, які знаходяться всередині зазначеного елемента (незалежно від рівня вкладеності).<br>Синтаксис: A B.<br>Приклад: селектор div span вибере всі елементи &lt;span&gt;, які знаходяться всередині елемента &lt;div&gt;.<br>Дочірні селектори.<br>Комбінатор '>' на відміну від пропуску вибирає тільки ті елементи, які є дочірніми безпосередньо по відношенню до зазначеного елементу.<br>Синтаксис: A>B.<br>Приклад: селектор ul > li вибере тільки дочірні елементи &lt;li&gt;, які знаходяться всередині, на першому рівні вкладеності по відношенню до елементу &lt;ul&gt;.<br>Комбінатор наступного сусіднього елемента.<br>Комбінатор '+' вибирає елемент, який знаходиться безпосередньо після зазначеного елемента, якщо у них загальний батько.<br>Синтаксис: A + B.<br>Приклад: селектор ul + li вибере будь &lt;li&gt; елемент, який знаходиться безпосередньо після елемента &lt;ul&gt;.<br> -->
         <!-- Після виконання лабораторної роботи №2 студенти нашої команди придбати практичні навички роботи з:<br><br><ol><li>Селекторами;</li><li>Ідентифікаторами;</li><li>Списками;</li><li>Різноманітними властивостями кольору і фону;</li><li>Зовнішними та внутрішними відступами;</li><li>Плаваючими елементами;</li><li>Оформленням текстових елементів.</li></ol> -->
-        <!-- <br>В ході виконання даної лабораторної роботи ми придбали практичні навички верстки сторінок засобами CSS та верстки на основі плаваючих елементів.<br><ol><li>Ми розробили макет власного сайту, застосовуючи плаваючі блоки, позиціонування та маніпуляції з внутрішніми й зовнішніми відступами.</li><li>Було опрацьовано теоретичний матеріал стосовно типів макетів та визначено переваги й недоліки кожного з типів(фіксованого, гумового, еластичного, адаптивного, комбінованого).</li><li>Крім того, кожен учасник нашої команди створив окремо свою веб-сторінку, за поданим макетом, застосовуючи розмітку за допомогою таблиці й за допомогою плаваючих блоків.</li> -->
     </div>
 </body>
 

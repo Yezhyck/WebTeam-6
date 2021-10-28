@@ -1,0 +1,48 @@
+
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #68066b;
+  background:  rgb(70, 53, 64);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #e52ebd;
+  box-shadow: 0 15px 20px rgba(229, 46, 159, 0.4);
+  color: white;
+  transform: translateY(-7px);
+}
+.form {
+ 
+  width: 30%;
+  padding: 0 15px;
+  margin: 10px 0 15px;
+  border-width: 0;
+  line-height: 40px;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(70, 53, 64);
+  
+}
+.my_text{
+  font-family: "Monotype Corsiva" Cursive;
+  font-size: medium;
+  font-style: italic;
+  font-size-adjust: initial;
+  font-weight: bold;
+  color: rgb(194, 143, 184);
+  background-color: rgb(32, 51, 45);
+}
+
